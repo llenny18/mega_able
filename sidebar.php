@@ -1,11 +1,53 @@
+
+
+<?php
+
+// Database credentials
+$hostname = "localhost";  // or your database server address
+$username = "root";
+$password = "";
+$database = "school_cashier";
+
+// Create connection
+$conn = new mysqli($hostname, $username, $password, $database);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+} else {
+   
+}
+?>
+
+
 <nav class="pcoded-navbar">
                       <div class="sidebar_toggle"><a href="#"><i class="icon-close icons"></i></a></div>
                       <div class="pcoded-inner-navbar main-menu">
                           <div class="">
                               <div class="main-menu-header">
-                                  <img class="img-80 img-radius" src="assets/images/avatar-4.jpg" alt="User-Profile-Image">
+                                
                                   <div class="user-details">
-                                      <span id="more-details">John Doe<i class="fa fa-caret-down"></i></span>
+                                      <span id="more-details"><?php
+                                     $us_id = $_SESSION['us_id'];
+
+                                     // Prepare a SQL statement to fetch the username based on the session ID
+                                     $sql = "SELECT full_name,  FROM student WHERE student_id = ?";
+                                 
+                                     // Use prepared statements to avoid SQL injection
+                                     $stmt = $conn->prepare($sql);
+                                     $stmt->bind_param("i", $us_id); // Assuming us_id is an integer
+                                 
+                                     // Execute the statement
+                                     $stmt->execute();
+                                 
+                                     // Bind the result
+                                     $stmt->bind_result($full_name);
+                                 
+                                     // Fetch the result
+                                     $stmt->fetch();
+                                 
+                                     // Output the username
+                                     echo "$full_name";?><i class="fa fa-caret-down"></i></span>
                                   </div>
                               </div>
         
@@ -19,15 +61,7 @@
                                   </ul>
                               </div>
                           </div>
-                          <div class="p-15 p-b-0">
-                              <form class="form-material">
-                                  <div class="form-group form-primary">
-                                      <input type="text" name="footer-email" class="form-control" required="">
-                                      <span class="form-bar"></span>
-                                      <label class="float-label"><i class="fa fa-search m-r-10"></i>Search Friend</label>
-                                  </div>
-                              </form>
-                          </div>
+                         
                           <div class="pcoded-navigation-label" data-i18n="nav.category.navigation">Layout</div>
                           <ul class="pcoded-item pcoded-left-item">
                               <li class="active">
