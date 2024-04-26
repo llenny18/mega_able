@@ -159,7 +159,8 @@
         if ($admin_result->num_rows > 0) {
             $admin_row = $admin_result->fetch_assoc();
             $_SESSION['us_id'] = $admin_row['admin_id'];
-            redirectToPage("index.php"); // Redirect to admin dashboard
+                $_SESSION['us_type'] = "admin";
+                redirectToPage("index.php"); // Redirect to admin dashboard
         } else {
             // Check if the user is a student
             $student_query = "SELECT student_id FROM Student WHERE username='$username' AND password='$hashed_password'";
@@ -168,6 +169,7 @@
             if ($student_result->num_rows > 0) {
                 $student_row = $student_result->fetch_assoc();
                 $_SESSION['us_id'] = $student_row['student_id'];
+                $_SESSION['us_type'] = "student";
                 redirectToPage("index.php"); // Redirect to student dashboard
             } else {
                 echo "<script>alert('Invalid username or password.')</script>";

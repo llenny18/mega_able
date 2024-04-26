@@ -28,10 +28,11 @@ if ($conn->connect_error) {
                                 
                                   <div class="user-details">
                                       <span id="more-details"><?php
+                                      if($_SESSION['us_type'] == "student"){
                                      $us_id = $_SESSION['us_id'];
 
                                      // Prepare a SQL statement to fetch the username based on the session ID
-                                     $sql = "SELECT full_name,  FROM student WHERE student_id = ?";
+                                     $sql = "SELECT full_name FROM student WHERE student_id = ?";
                                  
                                      // Use prepared statements to avoid SQL injection
                                      $stmt = $conn->prepare($sql);
@@ -47,7 +48,33 @@ if ($conn->connect_error) {
                                      $stmt->fetch();
                                  
                                      // Output the username
-                                     echo "$full_name";?><i class="fa fa-caret-down"></i></span>
+                                     echo "$full_name";}
+                                     else{
+                                        
+                                        $us_id = $_SESSION['us_id'];
+
+                                        $sql = "SELECT full_name FROM administrator WHERE admin_id = ?";
+                                 
+                                     // Use prepared statements to avoid SQL injection
+                                     $stmt = $conn->prepare($sql);
+                                     $stmt->bind_param("i", $us_id); // Assuming us_id is an integer
+                                 
+                                     // Execute the statement
+                                     $stmt->execute();
+                                 
+                                     // Bind the result
+                                     $stmt->bind_result($full_name);
+                                 
+                                     // Fetch the result
+                                     $stmt->fetch();
+                                 
+                                     // Output the username
+                                     echo "$full_name";
+                                     }
+                                     
+                                     
+                                     
+                                     ?><i class="fa fa-caret-down"></i></span>
                                   </div>
                               </div>
         
