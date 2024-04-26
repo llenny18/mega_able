@@ -508,7 +508,7 @@
                                                     </div>
                                                     <div class="card-block">
                                                         <p>Checkout color states of all buttons on popover to buttons</p>
-                                                        <button type="button" class="btn btn-primary waves-effect waves-light" id="primary-popover-content" data-container="body" data-toggle="popover" title="Primary color states" data-placement="bottom" data-content="<div class='color-code'>
+                                                        <button type="button" class="btn btn-primary waves-effect waves-light" id="primary-popover-content" data-container="body" data-toggle="popover" title="Primary color states" data-placement="bottom" data-content="<div class='color-code">
                                                             <div class='row'>
                                                               <div class='col-sm-6 col-xs-12'>
                                                                 <span class='block'>Normal</span>
@@ -565,7 +565,7 @@
                       </div>
 
                       ">Primary button</button>
-                      <button type="button" class="btn btn-success waves-effect waves-light" data-container="body" data-toggle="popover" title="Success color states" data-placement="bottom" data-content="<div class='color-code'>
+                      <button type="button" class="btn btn-success waves-effect waves-light" data-container="body" data-toggle="popover" title="Success color states" data-placement="bottom" data-content="<div class='color-code">
                         <div class='row'>
                           <div class='col-sm-6 col-xs-12'>
                             <span class='block'>Normal</span>
@@ -620,7 +620,7 @@
 </div>
 </div>
 </div>">Success button</button>
-<button type="button" class="btn btn-info waves-effect waves-light" data-container="body" data-toggle="popover" title="Info color states" data-placement="bottom" data-content="<div class='color-code'>
+<button type="button" class="btn btn-info waves-effect waves-light" data-container="body" data-toggle="popover" title="Info color states" data-placement="bottom" data-content="<div class='color-code">
     <div class='row'>
       <div class='col-sm-6 col-xs-12'>
         <span class='block'>Normal</span>
@@ -675,7 +675,7 @@
 </div>
 </div>
 </div>">Info button</button>
-<button type="button" class="btn btn-warning waves-effect waves-light" data-container="body" data-toggle="popover" title="Warning color states" data-placement="bottom" data-content="<div class='color-code'>
+<button type="button" class="btn btn-warning waves-effect waves-light" data-container="body" data-toggle="popover" title="Warning color states" data-placement="bottom" data-content="<div class='color-code">
     <div class='row'>
       <div class='col-sm-6 col-xs-12'>
         <span class='block'>Normal</span>

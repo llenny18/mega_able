@@ -110,7 +110,7 @@
                             </div>
                         </div>
                     </div>
-                    <a href="index.html">
+                    <a href="index.php">
                         <img class="img-fluid" src="assets/images/logo.png" alt="Theme-Logo" />
                     </a>
                     <a class="mobile-options waves-effect waves-light">
@@ -200,22 +200,22 @@
                                     </a>
                                 </li>
                                 <li class="waves-effect waves-light">
-                                    <a href="user-profile.html">
+                                    <a href="user-profile.php">
                                         <i class="ti-user"></i> Profile
                                     </a>
                                 </li>
                                 <li class="waves-effect waves-light">
-                                    <a href="email-inbox.html">
+                                    <a href="email-inbox.php">
                                         <i class="ti-email"></i> My Messages
                                     </a>
                                 </li>
                                 <li class="waves-effect waves-light">
-                                    <a href="auth-lock-screen.html">
+                                    <a href="auth-lock-screen.php">
                                         <i class="ti-lock"></i> Lock Screen
                                     </a>
                                 </li>
                                 <li class="waves-effect waves-light">
-                                    <a href="auth-normal-sign-in.html">
+                                    <a href="auth-normal-sign-in.php">
                                         <i class="ti-layout-sidebar-left"></i> Logout
                                     </a>
                                 </li>
@@ -360,9 +360,9 @@
                             <div class="main-menu-content">
                                 <ul>
                                     <li class="more-details">
-                                        <a href="user-profile.html"><i class="ti-user"></i>View Profile</a>
+                                        <a href="user-profile.php"><i class="ti-user"></i>View Profile</a>
                                         <a href="#!"><i class="ti-settings"></i>Settings</a>
-                                        <a href="auth-normal-sign-in.html"><i class="ti-layout-sidebar-left"></i>Logout</a>
+                                        <a href="auth-normal-sign-in.php"><i class="ti-layout-sidebar-left"></i>Logout</a>
                                     </li>
                                 </ul>
                             </div>
@@ -386,28 +386,28 @@
                                 </a>
                                 <ul class="pcoded-submenu">
                                     <li class="">
-                                        <a href="index.html" class="waves-effect waves-dark">
+                                        <a href="index.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Default</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="dashboard-ecommerce.html" class="waves-effect waves-dark">
+                                        <a href="dashboard-ecommerce.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Ecommerce</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="dashboard-crm.html" class="waves-effect waves-dark">
+                                        <a href="dashboard-crm.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">CRM</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="dashboard-analytics.html" class="waves-effect waves-dark">
+                                        <a href="dashboard-analytics.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Analytics</span>
                                             <span class="pcoded-badge label label-info ">NEW</span>
@@ -415,7 +415,7 @@
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="dashboard-project.html" class="waves-effect waves-dark">
+                                        <a href="dashboard-project.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Project</span>
                                             <span class="pcoded-mcaret"></span>
@@ -439,28 +439,28 @@
                                         </a>
                                         <ul class="pcoded-submenu">
                                             <li class=" ">
-                                                <a href="menu-static.html" class="waves-effect waves-dark">
+                                                <a href="menu-static.php" class="waves-effect waves-dark">
                                                     <span class="pcoded-micon"><i class="icon-chart"></i></span>
                                                     <span class="pcoded-mtext">Static Layout</span>
                                                     <span class="pcoded-mcaret"></span>
                                                 </a>
                                             </li>
                                             <li class=" ">
-                                                <a href="menu-header-fixed.html" class="waves-effect waves-dark">
+                                                <a href="menu-header-fixed.php" class="waves-effect waves-dark">
                                                     <span class="pcoded-micon"><i class="icon-chart"></i></span>
                                                     <span class="pcoded-mtext">Header Fixed</span>
                                                     <span class="pcoded-mcaret"></span>
                                                 </a>
                                             </li>
                                             <li class=" ">
-                                                <a href="menu-compact.html" class="waves-effect waves-dark">
+                                                <a href="menu-compact.php" class="waves-effect waves-dark">
                                                     <span class="pcoded-micon"><i class="icon-chart"></i></span>
                                                     <span class="pcoded-mtext">Compact</span>
                                                     <span class="pcoded-mcaret"></span>
                                                 </a>
                                             </li>
                                             <li class=" ">
-                                                <a href="menu-sidebar.html" class="waves-effect waves-dark">
+                                                <a href="menu-sidebar.php" class="waves-effect waves-dark">
                                                     <span class="pcoded-micon"><i class="icon-chart"></i></span>
                                                     <span class="pcoded-mtext">Sidebar Fixed</span>
                                                     <span class="pcoded-mcaret"></span>
@@ -476,28 +476,28 @@
                                         </a>
                                         <ul class="pcoded-submenu">
                                             <li class=" ">
-                                                <a href="menu-horizontal-static.html" target="_blank" class="waves-effect waves-dark">
+                                                <a href="menu-horizontal-static.php" target="_blank" class="waves-effect waves-dark">
                                                     <span class="pcoded-micon"><i class="icon-chart"></i></span>
                                                     <span class="pcoded-mtext">Static Layout</span>
                                                     <span class="pcoded-mcaret"></span>
                                                 </a>
                                             </li>
                                             <li class=" ">
-                                                <a href="menu-horizontal-fixed.html" target="_blank" class="waves-effect waves-dark">
+                                                <a href="menu-horizontal-fixed.php" target="_blank" class="waves-effect waves-dark">
                                                     <span class="pcoded-micon"><i class="icon-chart"></i></span>
                                                     <span class="pcoded-mtext">Fixed layout</span>
                                                     <span class="pcoded-mcaret"></span>
                                                 </a>
                                             </li>
                                             <li class=" ">
-                                                <a href="menu-horizontal-icon.html" target="_blank" class="waves-effect waves-dark">
+                                                <a href="menu-horizontal-icon.php" target="_blank" class="waves-effect waves-dark">
                                                     <span class="pcoded-micon"><i class="icon-chart"></i></span>
                                                     <span class="pcoded-mtext">Static With Icon</span>
                                                     <span class="pcoded-mcaret"></span>
                                                 </a>
                                             </li>
                                             <li class=" ">
-                                                <a href="menu-horizontal-icon-fixed.html" target="_blank" class="waves-effect waves-dark">
+                                                <a href="menu-horizontal-icon-fixed.php" target="_blank" class="waves-effect waves-dark">
                                                     <span class="pcoded-micon"><i class="icon-chart"></i></span>
                                                     <span class="pcoded-mtext">Fixed With Icon</span>
                                                     <span class="pcoded-mcaret"></span>
@@ -506,21 +506,21 @@
                                         </ul>
                                     </li>
                                     <li class=" ">
-                                        <a href="menu-bottom.html" class="waves-effect waves-dark">
+                                        <a href="menu-bottom.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="icon-pie-chart"></i></span>
                                             <span class="pcoded-mtext">Bottom Menu</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="box-layout.html" target="_blank" class="waves-effect waves-dark">
+                                        <a href="box-layout.php" target="_blank" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="icon-pie-chart"></i></span>
                                             <span class="pcoded-mtext">Box Layout</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="menu-rtl.html" target="_blank" class="waves-effect waves-dark">
+                                        <a href="menu-rtl.php" target="_blank" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="icon-pie-chart"></i></span>
                                             <span class="pcoded-mtext">RTL</span>
                                             <span class="pcoded-mcaret"></span>
@@ -529,7 +529,7 @@
                                 </ul>
                             </li>
                             <li class="">
-                                <a href="navbar-light.html" class="waves-effect waves-dark">
+                                <a href="navbar-light.php" class="waves-effect waves-dark">
                                     <span class="pcoded-micon"><i class="ti-layout-cta-right"></i><b>N</b></span>
                                     <span class="pcoded-mtext">Navigation</span>
                                     <span class="pcoded-mcaret"></span>
@@ -544,28 +544,28 @@
                                 </a>
                                 <ul class="pcoded-submenu">
                                     <li class="">
-                                        <a href="widget-statistic.html" class="waves-effect waves-dark">
+                                        <a href="widget-statistic.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Statistic</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="widget-data.html" class="waves-effect waves-dark">
+                                        <a href="widget-data.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Data</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="widget-chart.html" class="waves-effect waves-dark">
+                                        <a href="widget-chart.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Chart Widget</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="widget-chart-advance.html" class="waves-effect waves-dark">
+                                        <a href="widget-chart-advance.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Advance Widgets</span>
                                             <span class="pcoded-badge label label-info">25+</span>
@@ -585,105 +585,105 @@
                                 </a>
                                 <ul class="pcoded-submenu">
                                     <li class=" ">
-                                        <a href="alert.html" class="waves-effect waves-dark">
+                                        <a href="alert.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Alert</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="breadcrumb.html" class="waves-effect waves-dark">
+                                        <a href="breadcrumb.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Breadcrumbs</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="button.html" class="waves-effect waves-dark">
+                                        <a href="button.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Button</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="box-shadow.html" class="waves-effect waves-dark">
+                                        <a href="box-shadow.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Box-Shadow</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="accordion.html" class="waves-effect waves-dark">
+                                        <a href="accordion.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Accordion</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="generic-class.html" class="waves-effect waves-dark">
+                                        <a href="generic-class.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Generic Class</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="tabs.html" class="waves-effect waves-dark">
+                                        <a href="tabs.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Tabs</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="color.html" class="waves-effect waves-dark">
+                                        <a href="color.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Color</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="label-badge.html" class="waves-effect waves-dark">
+                                        <a href="label-badge.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Label Badge</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="active">
-                                        <a href="progress-bar.html" class="waves-effect waves-dark">
+                                        <a href="progress-bar.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Progress Bar</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="preloader.html" class="waves-effect waves-dark">
+                                        <a href="preloader.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Pre-Loader</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="list.html" class="waves-effect waves-dark">
+                                        <a href="list.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">List</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="tooltip.html" class="waves-effect waves-dark">
+                                        <a href="tooltip.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Tooltip And Popover</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="typography.html" class="waves-effect waves-dark">
+                                        <a href="typography.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Typography</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="other.html" class="waves-effect waves-dark">
+                                        <a href="other.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Other</span>
                                             <span class="pcoded-mcaret"></span>
@@ -700,28 +700,28 @@
                                 </a>
                                 <ul class="pcoded-submenu">
                                     <li class=" ">
-                                        <a href="draggable.html" class="waves-effect waves-dark">
+                                        <a href="draggable.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Draggable</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="bs-grid.html" class="waves-effect waves-dark">
+                                        <a href="bs-grid.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Grid Stack</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="light-box.html" class="waves-effect waves-dark">
+                                        <a href="light-box.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Light Box</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="modal.html" class="waves-effect waves-dark">
+                                        <a href="modal.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Modal</span>
                                             <span class="pcoded-mcaret"></span>
@@ -729,14 +729,14 @@
                                     </li>
                                     
                                     <li class=" ">
-                                        <a href="notification.html" class="waves-effect waves-dark">
+                                        <a href="notification.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Notifications</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="notify.html" class="waves-effect waves-dark">
+                                        <a href="notify.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">PNOTIFY</span>
                                             <span class="pcoded-badge label label-info">NEW</span>
@@ -744,63 +744,63 @@
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="rating.html" class="waves-effect waves-dark">
+                                        <a href="rating.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Rating</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="range-slider.html" class="waves-effect waves-dark">
+                                        <a href="range-slider.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Range Slider</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="slider.html" class="waves-effect waves-dark">
+                                        <a href="slider.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Slider</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="syntax-highlighter.html" class="waves-effect waves-dark">
+                                        <a href="syntax-highlighter.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Syntax Highlighter</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="tour.html" class="waves-effect waves-dark">
+                                        <a href="tour.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Tour</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="treeview.html" class="waves-effect waves-dark">
+                                        <a href="treeview.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Tree View</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="nestable.html" class="waves-effect waves-dark">
+                                        <a href="nestable.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Nestable</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="toolbar.html" class="waves-effect waves-dark">
+                                        <a href="toolbar.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Toolbar</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="x-editable.html" class="waves-effect waves-dark">
+                                        <a href="x-editable.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">X-Editable</span>
                                             <span class="pcoded-mcaret"></span>
@@ -817,21 +817,21 @@
                                 </a>
                                 <ul class="pcoded-submenu">
                                     <li class=" ">
-                                        <a href="session-timeout.html" class="waves-effect waves-dark">
+                                        <a href="session-timeout.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Session Timeout</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="session-idle-timeout.html" class="waves-effect waves-dark">
+                                        <a href="session-idle-timeout.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Session Idle Timeout</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="offline.html" class="waves-effect waves-dark">
+                                        <a href="offline.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Offline</span>
                                             <span class="pcoded-mcaret"></span>
@@ -841,14 +841,14 @@
                                 </ul>
                             </li>
                             <li class=" ">
-                                <a href="animation.html" class="waves-effect waves-dark">
+                                <a href="animation.php" class="waves-effect waves-dark">
                                     <span class="pcoded-micon"><i class="ti-reload rotate-refresh"></i><b>A</b></span>
                                     <span class="pcoded-mtext">Animations</span>
                                     <span class="pcoded-mcaret"></span>
                                 </a>
                             </li>
                             <li class=" ">
-                                <a href="sticky.html" class="waves-effect waves-dark">
+                                <a href="sticky.php" class="waves-effect waves-dark">
                                     <span class="pcoded-micon"><i class="ti-layers-alt"></i><b>S</b></span>
                                     <span class="pcoded-mtext">Sticky Notes</span>
                                     <span class="pcoded-badge label label-danger">HOT</span>
@@ -863,63 +863,63 @@
                                 </a>
                                 <ul class="pcoded-submenu">
                                     <li class=" ">
-                                        <a href="icon-font-awesome.html" class="waves-effect waves-dark">
+                                        <a href="icon-font-awesome.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Font Awesome</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="icon-themify.html" class="waves-effect waves-dark">
+                                        <a href="icon-themify.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Themify</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="icon-simple-line.html" class="waves-effect waves-dark">
+                                        <a href="icon-simple-line.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Simple Line Icon</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="icon-ion.html" class="waves-effect waves-dark">
+                                        <a href="icon-ion.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Ion Icon</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="icon-material-design.html" class="waves-effect waves-dark">
+                                        <a href="icon-material-design.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Material Design</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="icon-icofonts.html" class="waves-effect waves-dark">
+                                        <a href="icon-icofonts.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Ico Fonts</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="icon-weather.html" class="waves-effect waves-dark">
+                                        <a href="icon-weather.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Weather Icon</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="icon-typicons.html" class="waves-effect waves-dark">
+                                        <a href="icon-typicons.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Typicons</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="icon-flags.html" class="waves-effect waves-dark">
+                                        <a href="icon-flags.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Flags</span>
                                             <span class="pcoded-mcaret"></span>
@@ -938,28 +938,28 @@
                                 </a>
                                 <ul class="pcoded-submenu">
                                     <li class=" ">
-                                        <a href="form-elements-component.html" class="waves-effect waves-dark">
+                                        <a href="form-elements-component.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Components</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="form-elements-add-on.html" class="waves-effect waves-dark">
+                                        <a href="form-elements-add-on.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Add-On</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="form-elements-advance.html" class="waves-effect waves-dark">
+                                        <a href="form-elements-advance.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Advance</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="form-validation.html" class="waves-effect waves-dark">
+                                        <a href="form-validation.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Validation</span>
                                             <span class="pcoded-mcaret"></span>
@@ -969,7 +969,7 @@
                                 </ul>
                             </li>
                             <li class=" ">
-                                <a href="form-picker.html" class="waves-effect waves-dark">
+                                <a href="form-picker.php" class="waves-effect waves-dark">
                                     <span class="pcoded-micon"><i class="ti-pencil-alt"></i><b>FP</b></span>
                                     <span class="pcoded-mtext">Form Picker</span>
                                     <span class="pcoded-badge label label-warning">NEW</span>
@@ -978,21 +978,21 @@
                             </li>
                             
                             <li class=" ">
-                                <a href="form-select.html" class="waves-effect waves-dark">
+                                <a href="form-select.php" class="waves-effect waves-dark">
                                     <span class="pcoded-micon"><i class="ti-shortcode"></i><b>FS</b></span>
                                     <span class="pcoded-mtext">Form Select</span>
                                     <span class="pcoded-mcaret"></span>
                                 </a>
                             </li>
                             <li class=" ">
-                                <a href="form-masking.html" class="waves-effect waves-dark">
+                                <a href="form-masking.php" class="waves-effect waves-dark">
                                     <span class="pcoded-micon"><i class="ti-write"></i><b>FM</b></span>
                                     <span class="pcoded-mtext">Form Masking</span>
                                     <span class="pcoded-mcaret"></span>
                                 </a>
                             </li>
                             <li class=" ">
-                                <a href="form-wizard.html" class="waves-effect waves-dark">
+                                <a href="form-wizard.php" class="waves-effect waves-dark">
                                     <span class="pcoded-micon"><i class="ti-archive"></i><b>F</b></span>
                                     <span class="pcoded-mtext">Form Wizard</span>
                                     <span class="pcoded-mcaret"></span>
@@ -1007,105 +1007,105 @@
                                 </a>
                                 <ul class="pcoded-submenu">
                                     <li class=" ">
-                                        <a href="ready-cloned-elements-form.html" class="waves-effect waves-dark">
+                                        <a href="ready-cloned-elements-form.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Cloned Elements Form</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="ready-currency-form.html" class="waves-effect waves-dark">
+                                        <a href="ready-currency-form.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Currency Form</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="ready-form-booking.html" class="waves-effect waves-dark">
+                                        <a href="ready-form-booking.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Booking Form</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="ready-form-booking-multi-steps.html" class="waves-effect waves-dark">
+                                        <a href="ready-form-booking-multi-steps.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Booking Multi Steps</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="ready-form-comment.html" class="waves-effect waves-dark">
+                                        <a href="ready-form-comment.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Comment Form</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="ready-form-contact.html" class="waves-effect waves-dark">
+                                        <a href="ready-form-contact.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Contact Form</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="ready-job-application-form.html" class="waves-effect waves-dark">
+                                        <a href="ready-job-application-form.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Job Application Form</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="ready-js-addition-form.html" class="waves-effect waves-dark">
+                                        <a href="ready-js-addition-form.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">JS Addition Form</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="ready-login-form.html" class="waves-effect waves-dark">
+                                        <a href="ready-login-form.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Login Form</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="ready-popup-modal-form.html" target="_blank" class="waves-effect waves-dark">
+                                        <a href="ready-popup-modal-form.php" target="_blank" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Popup Modal Form</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="ready-registration-form.html" class="waves-effect waves-dark">
+                                        <a href="ready-registration-form.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Registration Form</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="ready-review-form.html" class="waves-effect waves-dark">
+                                        <a href="ready-review-form.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Review Form</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="ready-subscribe-form.html" class="waves-effect waves-dark">
+                                        <a href="ready-subscribe-form.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Subscribe Form</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="ready-suggestion-form.html" class="waves-effect waves-dark">
+                                        <a href="ready-suggestion-form.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Suggestion Form</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="ready-tabs-form.html" class="waves-effect waves-dark">
+                                        <a href="ready-tabs-form.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Tabs Form</span>
                                             <span class="pcoded-mcaret"></span>
@@ -1124,28 +1124,28 @@
                                 </a>
                                 <ul class="pcoded-submenu">
                                     <li class=" ">
-                                        <a href="bs-basic-table.html" class="waves-effect waves-dark">
+                                        <a href="bs-basic-table.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Basic Table</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="bs-table-sizing.html" class="waves-effect waves-dark">
+                                        <a href="bs-table-sizing.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Sizing Table</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="bs-table-border.html" class="waves-effect waves-dark">
+                                        <a href="bs-table-border.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Border Table</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="bs-table-styling.html" class="waves-effect waves-dark">
+                                        <a href="bs-table-styling.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Styling Table</span>
                                             <span class="pcoded-mcaret"></span>
@@ -1161,56 +1161,56 @@
                                 </a>
                                 <ul class="pcoded-submenu">
                                     <li class=" ">
-                                        <a href="dt-basic.html" class="waves-effect waves-dark">
+                                        <a href="dt-basic.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Basic Initialization</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="dt-advance.html" class="waves-effect waves-dark">
+                                        <a href="dt-advance.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Advance Initialization</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="dt-styling.html" class="waves-effect waves-dark">
+                                        <a href="dt-styling.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Styling</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="dt-api.html" class="waves-effect waves-dark">
+                                        <a href="dt-api.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">API</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="dt-ajax.html" class="waves-effect waves-dark">
+                                        <a href="dt-ajax.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Ajax</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="dt-server-side.html" class="waves-effect waves-dark">
+                                        <a href="dt-server-side.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Server Side</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="dt-plugin.html" class="waves-effect waves-dark">
+                                        <a href="dt-plugin.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Plug-In</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="dt-data-sources.html" class="waves-effect waves-dark">
+                                        <a href="dt-data-sources.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Data Sources</span>
                                             <span class="pcoded-mcaret"></span>
@@ -1227,7 +1227,7 @@
                                 </a>
                                 <ul class="pcoded-submenu">
                                     <li class=" ">
-                                        <a href="dt-ext-autofill.html" class="waves-effect waves-dark">
+                                        <a href="dt-ext-autofill.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">AutoFill</span>
                                             <span class="pcoded-mcaret"></span>
@@ -1241,7 +1241,7 @@
                                         </a>
                                         <ul class="pcoded-submenu">
                                             <li class=" ">
-                                                <a href="dt-ext-basic-buttons.html" class="waves-effect waves-dark">
+                                                <a href="dt-ext-basic-buttons.php" class="waves-effect waves-dark">
                                                     <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                                     <span class="pcoded-mtext">Basic Button</span>
                                                     <span class="pcoded-mcaret"></span>
@@ -1249,7 +1249,7 @@
                                             </li>
                                             
                                             <li class=" ">
-                                                <a href="dt-ext-buttons-html-5-data-export.html" class="waves-effect waves-dark">
+                                                <a href="dt-ext-buttons-html-5-data-export.php" class="waves-effect waves-dark">
                                                     <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                                     <span class="pcoded-mtext">Data Export</span>
                                                     <span class="pcoded-mcaret"></span>
@@ -1259,56 +1259,56 @@
                                         </ul>
                                     </li>
                                     <li class=" ">
-                                        <a href="dt-ext-col-reorder.html" class="waves-effect waves-dark">
+                                        <a href="dt-ext-col-reorder.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Col Reorder</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="dt-ext-fixed-columns.html" class="waves-effect waves-dark">
+                                        <a href="dt-ext-fixed-columns.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Fixed Columns</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="dt-ext-fixed-header.html" class="waves-effect waves-dark">
+                                        <a href="dt-ext-fixed-header.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Fixed Header</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="dt-ext-key-table.html" class="waves-effect waves-dark">
+                                        <a href="dt-ext-key-table.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Key Table</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="dt-ext-responsive.html" class="waves-effect waves-dark">
+                                        <a href="dt-ext-responsive.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Responsive</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="dt-ext-row-reorder.html" class="waves-effect waves-dark">
+                                        <a href="dt-ext-row-reorder.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Row Reorder</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="dt-ext-scroller.html" class="waves-effect waves-dark">
+                                        <a href="dt-ext-scroller.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Scroller</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class=" ">
-                                        <a href="dt-ext-select.html" class="waves-effect waves-dark">
+                                        <a href="dt-ext-select.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Select Table</span>
                                             <span class="pcoded-mcaret"></span>
@@ -1317,7 +1317,7 @@
                                 </ul>
                             </li>
                             <li class=" ">
-                                <a href="foo-table.html" class="waves-effect waves-dark">
+                                <a href="foo-table.php" class="waves-effect waves-dark">
                                     <span class="pcoded-micon"><i class="ti-view-list-alt"></i><b>F</b></span>
                                     <span class="pcoded-mtext">FooTable</span>
                                     <span class="pcoded-mcaret"></span>
@@ -1331,63 +1331,63 @@
                                 </a>
                                 <ul class="pcoded-submenu">
                                     <li class="">
-                                        <a href="handson-appearance.html" class="waves-effect waves-dark">
+                                        <a href="handson-appearance.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Appearance</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="handson-data-operation.html" class="waves-effect waves-dark">
+                                        <a href="handson-data-operation.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Data Operation</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="handson-rows-cols.html" class="waves-effect waves-dark">
+                                        <a href="handson-rows-cols.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Rows Columns</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="handson-columns-only.html" class="waves-effect waves-dark">
+                                        <a href="handson-columns-only.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Columns Only</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="handson-cell-features.html" class="waves-effect waves-dark">
+                                        <a href="handson-cell-features.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Cell Features</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="handson-cell-types.html" class="waves-effect waves-dark">
+                                        <a href="handson-cell-types.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Cell Types</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="handson-integrations.html" class="waves-effect waves-dark">
+                                        <a href="handson-integrations.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Integrations</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="handson-rows-only.html" class="waves-effect waves-dark">
+                                        <a href="handson-rows-only.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Rows Only</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="handson-utilities.html" class="waves-effect waves-dark">
+                                        <a href="handson-utilities.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Utilities</span>
                                             <span class="pcoded-mcaret"></span>
@@ -1396,7 +1396,7 @@
                                 </ul>
                             </li>
                             <li class="">
-                                <a href="editable-table.html" class="waves-effect waves-dark">
+                                <a href="editable-table.php" class="waves-effect waves-dark">
                                     <span class="pcoded-micon"><i class="ti-write"></i><b>E</b></span>
                                     <span class="pcoded-mtext">Editable Table</span>
                                     <span class="pcoded-mcaret"></span>
@@ -1413,91 +1413,91 @@
                                 </a>
                                 <ul class="pcoded-submenu">
                                     <li class="">
-                                        <a href="chart-google.html" class="waves-effect waves-dark">
+                                        <a href="chart-google.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Google Chart</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="chart-echart.html" class="waves-effect waves-dark">
+                                        <a href="chart-echart.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Echarts</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="chart-chartjs.html" class="waves-effect waves-dark">
+                                        <a href="chart-chartjs.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">ChartJs</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="chart-list.html" class="waves-effect waves-dark">
+                                        <a href="chart-list.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">List Chart</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="chart-float.html" class="waves-effect waves-dark">
+                                        <a href="chart-float.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Float Chart</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="chart-knob.html" class="waves-effect waves-dark">
+                                        <a href="chart-knob.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Knob chart</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="chart-morris.html" class="waves-effect waves-dark">
+                                        <a href="chart-morris.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Morris Chart</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="chart-nvd3.html" class="waves-effect waves-dark">
+                                        <a href="chart-nvd3.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Nvd3 Chart</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="chart-peity.html" class="waves-effect waves-dark">
+                                        <a href="chart-peity.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Peity Chart</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="chart-radial.html" class="waves-effect waves-dark">
+                                        <a href="chart-radial.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Radial Chart</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="chart-rickshaw.html" class="waves-effect waves-dark">
+                                        <a href="chart-rickshaw.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Rickshaw Chart</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="chart-sparkline.html" class="waves-effect waves-dark">
+                                        <a href="chart-sparkline.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Sparkline Chart</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="chart-c3.html" class="waves-effect waves-dark">
+                                        <a href="chart-c3.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">C3 Chart</span>
                                             <span class="pcoded-mcaret"></span>
@@ -1513,28 +1513,28 @@
                                 </a>
                                 <ul class="pcoded-submenu">
                                     <li class="">
-                                        <a href="map-google.html" class="waves-effect waves-dark">
+                                        <a href="map-google.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Google Maps</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="map-vector.html" class="waves-effect waves-dark">
+                                        <a href="map-vector.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Vector Maps</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="map-api.html" class="waves-effect waves-dark">
+                                        <a href="map-api.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Google Map Search API</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="location.html" class="waves-effect waves-dark">
+                                        <a href="location.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Location</span>
                                             <span class="pcoded-mcaret"></span>
@@ -1543,7 +1543,7 @@
                                 </ul>
                             </li>
                             <li class="">
-                                <a href="extra-pages/landingpage/index.html" target="_blank" class="waves-effect waves-dark">
+                                <a href="extra-pages/landingpage/index.php" target="_blank" class="waves-effect waves-dark">
                                     <span class="pcoded-micon"><i class="ti-mobile"></i><b>LP</b></span>
                                     <span class="pcoded-mtext">Landing Page</span>
                                     <span class="pcoded-mcaret"></span>
@@ -1567,28 +1567,28 @@
                                         </a>
                                         <ul class="pcoded-submenu">
                                             <li class="">
-                                                <a href="auth-normal-sign-in.html" target="_blank" class="waves-effect waves-dark">
+                                                <a href="auth-normal-sign-in.php" target="_blank" class="waves-effect waves-dark">
                                                     <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                                     <span class="pcoded-mtext">Simple</span>
                                                     <span class="pcoded-mcaret"></span>
                                                 </a>
                                             </li>
                                             <li class="">
-                                                <a href="auth-normal-sign-in-header-footer.html" target="_blank" class="waves-effect waves-dark">
+                                                <a href="auth-normal-sign-in-header-footer.php" target="_blank" class="waves-effect waves-dark">
                                                     <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                                     <span class="pcoded-mtext">Header &amp; Footer</span>
                                                     <span class="pcoded-mcaret"></span>
                                                 </a>
                                             </li>
                                             <li class="">
-                                                <a href="auth-sign-in-social.html" target="_blank" class="waves-effect waves-dark">
+                                                <a href="auth-sign-in-social.php" target="_blank" class="waves-effect waves-dark">
                                                     <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                                     <span class="pcoded-mtext">Social</span>
                                                     <span class="pcoded-mcaret"></span>
                                                 </a>
                                             </li>
                                             <li class="">
-                                                <a href="auth-sign-in-social-header-footer.html" target="_blank" class="waves-effect waves-dark">
+                                                <a href="auth-sign-in-social-header-footer.php" target="_blank" class="waves-effect waves-dark">
                                                     <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                                     <span class="pcoded-mtext">Social With Header &amp; Footer</span>
                                                     <span class="pcoded-mcaret"></span>
@@ -1604,28 +1604,28 @@
                                         </a>
                                         <ul class="pcoded-submenu">
                                             <li class="">
-                                                <a href="auth-sign-up.html" target="_blank" class="waves-effect waves-dark">
+                                                <a href="auth-sign-up.php" target="_blank" class="waves-effect waves-dark">
                                                     <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                                     <span class="pcoded-mtext">Simple</span>
                                                     <span class="pcoded-mcaret"></span>
                                                 </a>
                                             </li>
                                             <li class="">
-                                                <a href="auth-sign-up-header-footer.html" target="_blank" class="waves-effect waves-dark">
+                                                <a href="auth-sign-up-header-footer.php" target="_blank" class="waves-effect waves-dark">
                                                     <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                                     <span class="pcoded-mtext">Header &amp; Footer</span>
                                                     <span class="pcoded-mcaret"></span>
                                                 </a>
                                             </li>
                                             <li class="">
-                                                <a href="auth-sign-up-social.html" target="_blank" class="waves-effect waves-dark">
+                                                <a href="auth-sign-up-social.php" target="_blank" class="waves-effect waves-dark">
                                                     <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                                     <span class="pcoded-mtext">Social</span>
                                                     <span class="pcoded-mcaret"></span>
                                                 </a>
                                             </li>
                                             <li class="">
-                                                <a href="auth-sign-up-social-header-footer.html" target="_blank" class="waves-effect waves-dark">
+                                                <a href="auth-sign-up-social-header-footer.php" target="_blank" class="waves-effect waves-dark">
                                                     <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                                     <span class="pcoded-mtext">Social With Header &amp; Footer</span>
                                                     <span class="pcoded-mcaret"></span>
@@ -1634,28 +1634,28 @@
                                         </ul>
                                     </li>
                                     <li class="">
-                                        <a href="auth-multi-step-sign-up.html" target="_blank" class="waves-effect waves-dark">
+                                        <a href="auth-multi-step-sign-up.php" target="_blank" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Multi Step Registration</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="auth-reset-password.html" target="_blank" class="waves-effect waves-dark">
+                                        <a href="auth-reset-password.php" target="_blank" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Forgot Password</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="auth-lock-screen.html" target="_blank" class="waves-effect waves-dark">
+                                        <a href="auth-lock-screen.php" target="_blank" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Lock Screen</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="auth-modal.html" target="_blank" class="waves-effect waves-dark">
+                                        <a href="auth-modal.php" target="_blank" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Modal</span>
                                             <span class="pcoded-mcaret"></span>
@@ -1671,21 +1671,21 @@
                                 </a>
                                 <ul class="pcoded-submenu">
                                     <li class="">
-                                        <a href="error.html" class="waves-effect waves-dark">
+                                        <a href="error.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Error</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="comming-soon.html" class="waves-effect waves-dark">
+                                        <a href="comming-soon.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Comming Soon</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="offline-ui.html" class="waves-effect waves-dark">
+                                        <a href="offline-ui.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Offline UI</span>
                                             <span class="pcoded-mcaret"></span>
@@ -1701,28 +1701,28 @@
                                 </a>
                                 <ul class="pcoded-submenu">
                                     <li class="">
-                                        <a href="timeline.html" class="waves-effect waves-dark">
+                                        <a href="timeline.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Timeline</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="timeline-social.html" class="waves-effect waves-dark">
+                                        <a href="timeline-social.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Timeline Social</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="user-profile.html" class="waves-effect waves-dark">
+                                        <a href="user-profile.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">User Profile</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="user-card.html" class="waves-effect waves-dark">
+                                        <a href="user-card.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">User Card</span>
                                             <span class="pcoded-mcaret"></span>
@@ -1740,42 +1740,42 @@
                                 </a>
                                 <ul class="pcoded-submenu">
                                     <li class="">
-                                        <a href="product.html" class="waves-effect waves-dark">
+                                        <a href="product.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Product</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="product-list.html" class="waves-effect waves-dark">
+                                        <a href="product-list.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Product List</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="product-edit.html" class="waves-effect waves-dark">
+                                        <a href="product-edit.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Product Edit</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="product-detail.html" class="waves-effect waves-dark">
+                                        <a href="product-detail.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Product Detail</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="product-cart.html" class="waves-effect waves-dark">
+                                        <a href="product-cart.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Product Card</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="product-payment.html" class="waves-effect waves-dark">
+                                        <a href="product-payment.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Credit Card Form</span>
                                             <span class="pcoded-mcaret"></span>
@@ -1791,21 +1791,21 @@
                                 </a>
                                 <ul class="pcoded-submenu">
                                     <li class="">
-                                        <a href="email-compose.html" class="waves-effect waves-dark">
+                                        <a href="email-compose.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Compose Email</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="email-inbox.html" class="waves-effect waves-dark">
+                                        <a href="email-inbox.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Inbox</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="email-read.html" class="waves-effect waves-dark">
+                                        <a href="email-read.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Read Mail</span>
                                             <span class="pcoded-mcaret"></span>
@@ -1819,35 +1819,35 @@
                                         </a>
                                         <ul class="pcoded-submenu">
                                             <li class="">
-                                                <a href="extra-pages/email-templates/email-welcome.html" class="waves-effect waves-dark">
+                                                <a href="extra-pages/email-templates/email-welcome.php" class="waves-effect waves-dark">
                                                     <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                                     <span class="pcoded-mtext">Welcome Email</span>
                                                     <span class="pcoded-mcaret"></span>
                                                 </a>
                                             </li>
                                             <li class="">
-                                                <a href="extra-pages/email-templates/email-password.html" class="waves-effect waves-dark">
+                                                <a href="extra-pages/email-templates/email-password.php" class="waves-effect waves-dark">
                                                     <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                                     <span class="pcoded-mtext">Reset Password</span>
                                                     <span class="pcoded-mcaret"></span>
                                                 </a>
                                             </li>
                                             <li class="">
-                                                <a href="extra-pages/email-templates/email-newsletter.html" class="waves-effect waves-dark">
+                                                <a href="extra-pages/email-templates/email-newsletter.php" class="waves-effect waves-dark">
                                                     <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                                     <span class="pcoded-mtext">Newsletter Email</span>
                                                     <span class="pcoded-mcaret"></span>
                                                 </a>
                                             </li>
                                             <li class="">
-                                                <a href="extra-pages/email-templates/email-launch.html" class="waves-effect waves-dark">
+                                                <a href="extra-pages/email-templates/email-launch.php" class="waves-effect waves-dark">
                                                     <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                                     <span class="pcoded-mtext">App Launch</span>
                                                     <span class="pcoded-mcaret"></span>
                                                 </a>
                                             </li>
                                             <li class="">
-                                                <a href="extra-pages/email-templates/email-activation.html" class="waves-effect waves-dark">
+                                                <a href="extra-pages/email-templates/email-activation.php" class="waves-effect waves-dark">
                                                     <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                                     <span class="pcoded-mtext">Activation Code</span>
                                                     <span class="pcoded-mcaret"></span>
@@ -1868,14 +1868,14 @@
                                 </a>
                                 <ul class="pcoded-submenu">
                                     <li class="">
-                                        <a href="fb-wall.html" class="waves-effect waves-dark">
+                                        <a href="fb-wall.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Wall</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="message.html" class="waves-effect waves-dark">
+                                        <a href="message.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Messages</span>
                                             <span class="pcoded-mcaret"></span>
@@ -1891,28 +1891,28 @@
                                 </a>
                                 <ul class="pcoded-submenu">
                                     <li class="">
-                                        <a href="task-list.html" class="waves-effect waves-dark">
+                                        <a href="task-list.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Task List</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="task-board.html" class="waves-effect waves-dark">
+                                        <a href="task-board.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Task Board</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="task-detail.html" class="waves-effect waves-dark">
+                                        <a href="task-detail.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Task Detail</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="issue-list.html" class="waves-effect waves-dark">
+                                        <a href="issue-list.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Issue List</span>
                                             <span class="pcoded-mcaret"></span>
@@ -1928,14 +1928,14 @@
                                 </a>
                                 <ul class="pcoded-submenu">
                                     <li class="">
-                                        <a href="todo.html" class="waves-effect waves-dark">
+                                        <a href="todo.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">To-Do</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="notes.html" class="waves-effect waves-dark">
+                                        <a href="notes.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Notes</span>
                                             <span class="pcoded-mcaret"></span>
@@ -1951,21 +1951,21 @@
                                 </a>
                                 <ul class="pcoded-submenu">
                                     <li class="">
-                                        <a href="gallery-grid.html" class="waves-effect waves-dark">
+                                        <a href="gallery-grid.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Gallery-Grid</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="gallery-masonry.html" class="waves-effect waves-dark">
+                                        <a href="gallery-masonry.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Masonry Gallery</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="gallery-advance.html" class="waves-effect waves-dark">
+                                        <a href="gallery-advance.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Advance Gallery</span>
                                             <span class="pcoded-mcaret"></span>
@@ -1981,14 +1981,14 @@
                                 </a>
                                 <ul class="pcoded-submenu">
                                     <li class="">
-                                        <a href="search-result.html" class="waves-effect waves-dark">
+                                        <a href="search-result.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Simple Search</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="search-result2.html" class="waves-effect waves-dark">
+                                        <a href="search-result2.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Grouping Search</span>
                                             <span class="pcoded-mcaret"></span>
@@ -2005,28 +2005,28 @@
                                 </a>
                                 <ul class="pcoded-submenu">
                                     <li class="">
-                                        <a href="job-card-view.html" class="waves-effect waves-dark">
+                                        <a href="job-card-view.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Card View</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="job-details.html" class="waves-effect waves-dark">
+                                        <a href="job-details.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Job Detailed</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="job-find.html" class="waves-effect waves-dark">
+                                        <a href="job-find.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Job Find</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="job-panel-view.html" class="waves-effect waves-dark">
+                                        <a href="job-panel-view.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Job Panel View</span>
                                             <span class="pcoded-mcaret"></span>
@@ -2045,21 +2045,21 @@
                                 </a>
                                 <ul class="pcoded-submenu">
                                     <li class="">
-                                        <a href="ck-editor.html" class="waves-effect waves-dark">
+                                        <a href="ck-editor.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">CK-Editor</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="wysiwyg-editor.html" class="waves-effect waves-dark">
+                                        <a href="wysiwyg-editor.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">WYSIWYG Editor</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="ace-editor.html" class="waves-effect waves-dark">
+                                        <a href="ace-editor.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Ace Editor</span>
                                             <span class="pcoded-mcaret"></span>
@@ -2067,7 +2067,7 @@
                                     </li>
                                     
                                     <li class="">
-                                        <a href="long-press-editor.html" class="waves-effect waves-dark">
+                                        <a href="long-press-editor.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Long Press Editor</span>
                                             <span class="pcoded-mcaret"></span>
@@ -2083,21 +2083,21 @@
                                 </a>
                                 <ul class="pcoded-submenu">
                                     <li class="">
-                                        <a href="invoice.html" class="waves-effect waves-dark">
+                                        <a href="invoice.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Invoice</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="invoice-summary.html" class="waves-effect waves-dark">
+                                        <a href="invoice-summary.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Invoice Summary</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="invoice-list.html" class="waves-effect waves-dark">
+                                        <a href="invoice-list.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Invoice List</span>
                                             <span class="pcoded-mcaret"></span>
@@ -2113,14 +2113,14 @@
                                 </a>
                                 <ul class="pcoded-submenu">
                                     <li class="">
-                                        <a href="event-full-calender.html" class="waves-effect waves-dark">
+                                        <a href="event-full-calender.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">Full Calendar</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="event-clndr.html" class="waves-effect waves-dark">
+                                        <a href="event-clndr.php" class="waves-effect waves-dark">
                                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                             <span class="pcoded-mtext">CLNDER</span>
                                             <span class="pcoded-badge label label-info">NEW</span>
@@ -2130,14 +2130,14 @@
                                 </ul>
                             </li>
                             <li class="">
-                                <a href="image-crop.html" class="waves-effect waves-dark">
+                                <a href="image-crop.php" class="waves-effect waves-dark">
                                     <span class="pcoded-micon"><i class="ti-cut"></i><b>IC</b></span>
                                     <span class="pcoded-mtext">Image Cropper</span>
                                     <span class="pcoded-mcaret"></span>
                                 </a>
                             </li>
                             <li class="">
-                                <a href="file-upload.html" class="waves-effect waves-dark">
+                                <a href="file-upload.php" class="waves-effect waves-dark">
                                     <span class="pcoded-micon"><i class="ti-cloud-up"></i><b>FU</b></span>
                                     <span class="pcoded-mtext">File Upload</span>
                                     <span class="pcoded-mcaret"></span>
@@ -2145,7 +2145,7 @@
                             </li>
                             
                             <li class="">
-                                <a href="change-loges.html" class="waves-effect waves-dark">
+                                <a href="change-loges.php" class="waves-effect waves-dark">
                                     <span class="pcoded-micon"><i class="ti-list"></i><b>CL</b></span>
                                     <span class="pcoded-mtext">Change Loges</span>
                                     <span class="pcoded-badge label label-warning">1.0</span>
@@ -2203,7 +2203,7 @@
                                 </a>
                             </li>
                             <li class="">
-                                <a href="sample-page.html" class="waves-effect waves-dark">
+                                <a href="sample-page.php" class="waves-effect waves-dark">
                                     <span class="pcoded-micon"><i class="ti-layout-sidebar-left"></i><b>S</b></span>
                                     <span class="pcoded-mtext">Sample Page</span>
                                     <span class="pcoded-mcaret"></span>
@@ -2243,7 +2243,7 @@
                                 <div class="col-md-4">
                                     <ul class="breadcrumb-title">
                                         <li class="breadcrumb-item">
-                                            <a href="index.html"> <i class="fa fa-home"></i> </a>
+                                            <a href="index.php"> <i class="fa fa-home"></i> </a>
                                         </li>
                                         <li class="breadcrumb-item"><a href="#!">Basic Components</a>
                                         </li>
