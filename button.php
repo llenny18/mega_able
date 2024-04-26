@@ -675,7 +675,7 @@
 </div>
 </div>
 </div>">Info button</button>
-<button type="button" class="btn btn-warning waves-effect waves-light" data-container="body" data-toggle="popover" title="Warning color states" data-placement="bottom" data-content="<div class='color-code">
+<button type="button" class="btn btn-warning waves-effect waves-light" data-container="body" data-toggle="popover" title="Warning color states" data-placement="bottom" data-content="<div class='color-code'>
     <div class='row'>
       <div class='col-sm-6 col-xs-12'>
         <span class='block'>Normal</span>
