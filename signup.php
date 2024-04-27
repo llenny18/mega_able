@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Mega Able bootstrap admin template by codedthemes </title>
+    <title>Balayan Senior High School</title>
     <!-- HTML5 Shim and Respond.js IE10 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 10]>
@@ -18,7 +18,7 @@
       <meta name="author" content="codedthemes" />
       <!-- Favicon icon -->
 
-      <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+      <link rel="icon" href="./assets/images/logo-bshs.png" type="image/x-icon">
       <!-- Google font-->     
       <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
       <!-- Required Fremwork -->
@@ -46,7 +46,7 @@
                 <div class="col-sm-12">
                 <form class="md-float-material form-material"  method="POST">
     <div class="text-center">
-        <img src="assets/images/logo.png" alt="logo.png">
+    <img src="assets/images/logo-bshs.png" alt="logo.png" style="width: 150px;">
     </div>
     <div class="auth-box card">
         <div class="card-block">

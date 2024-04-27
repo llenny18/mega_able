@@ -17,6 +17,11 @@ if ($conn->connect_error) {
 } else {
    
 }
+
+if(!isset($_SESSION['us_id'])){
+    echo"<script>window.location.href='login.php'</script>";
+   
+}
 ?>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -26,7 +31,7 @@ if ($conn->connect_error) {
                       <div class="pcoded-inner-navbar main-menu">
                           <div class="">
                               <div class="main-menu-header">
-                                
+                              <img src="assets/images/logo-bshs.png" alt="logo.png" style="width: 150px;">
                                   <div class="user-details">
                                       <span id="more-details"><?php
                                       if($_SESSION['us_type'] == "student"){
@@ -82,13 +87,13 @@ if ($conn->connect_error) {
                               <div class="main-menu-content">
                                   <ul>
                                       <li class="more-details">
-                                          <a href="user-profile.php"><i class="ti-user"></i>View Profile</a>
-                                          <a href="auth-normal-sign-in.php"><i class="ti-layout-sidebar-left"></i>Logout</a>
+                                 
+                                          <a href="logout.php"><i class="ti-layout-sidebar-left"></i>Logout</a>
                                       </li>
                                   </ul>
                               </div>
                           </div>
-                         
+                        
                           <div class="pcoded-navigation-label" data-i18n="nav.category.navigation">Home</div>
                           <ul class="pcoded-item pcoded-left-item">
                               <li class="active">
@@ -100,9 +105,11 @@ if ($conn->connect_error) {
                               </li>
                             
                           </ul>
+                              
+                              
                           <div class="pcoded-navigation-label" data-i18n="nav.category.forms">Files And Information</div>
                           <ul class="pcoded-item pcoded-left-item">
-                             
+                          <?php if($_SESSION['us_type']=="admin"){ ?>
                           <li>
                                   <a href="students.php" class="waves-effect waves-dark">
                                       <span class="pcoded-micon"><i class="fas fa-user"></i><b>FC</b></span>
@@ -118,7 +125,8 @@ if ($conn->connect_error) {
                                       <span class="pcoded-mcaret"></span>
                                   </a>
                               </li>
-        
+                             
+
                               <li>
                                   <a href="files.php" class="waves-effect waves-dark">
                                       <span class="pcoded-micon"><i class="fas fa-file"></i><b>FC</b></span>
@@ -126,6 +134,17 @@ if ($conn->connect_error) {
                                       <span class="pcoded-mcaret"></span>
                                   </a>
                               </li>
+                              <?php } else{ ?>
+                           
+                                <li>
+                                  <a href="sfiles.php" class="waves-effect waves-dark">
+                                      <span class="pcoded-micon"><i class="fas fa-file"></i><b>FC</b></span>
+                                      <span class="pcoded-mtext" data-i18n="nav.form-components.main">Download Files</span>
+                                      <span class="pcoded-mcaret"></span>
+                                  </a>
+                              </li>
+                              <?php }  ?>
+
                           </ul>
         
                       </div>

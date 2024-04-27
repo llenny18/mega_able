@@ -170,6 +170,7 @@
                 $student_row = $student_result->fetch_assoc();
                 $_SESSION['us_id'] = $student_row['student_id'];
                 $_SESSION['us_type'] = "student";
+                echo "<script>alert('Login Success')</script>";
                 redirectToPage("index.php"); // Redirect to student dashboard
             } else {
                 echo "<script>alert('Invalid username or password.')</script>";

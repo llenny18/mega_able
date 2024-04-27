@@ -119,20 +119,18 @@
                                     <!-- Simple Breadcrumb card start -->
                                     <div class="card">
                                         <div class="card-block">
-                                            <h5>Form 137<a href="./assets/files/FORM137.pdf" download>
-                                                    <button>Download PDF</button></h5>
+                                            <h5>Your Form 137</h5>
                                             <div class="page-header-breadcrumb">
                                                 <hr>
-                                                <iframe src="./assets/files/FORM137.pdf" width="100%" height="500px"></iframe>
+                                                <iframe src="display_pdf.php?sid=<?= $_SESSION['us_id'] ?>" width="100%" height="600px"></iframe>
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- Simple Breadcrumb card start -->
-                                    <!-- Caption Breadcrumb card start -->
+                                  
                                     <div class="card">
                                         <div class="card-block caption-breadcrumb">
                                             <div class="breadcrumb-header">
-                                                <h5>CERTIFICATION OF SHS ENROLMENT<a href="./assets/files/COENROLLMENT.pdf" download>
+                                                <h5>Template: CERTIFICATION OF SHS ENROLMENT<a href="./assets/files/COENROLLMENT.pdf" download>
                                                         <button>Download PDF</button>
                                                     </a>
                                                 </h5>
@@ -149,7 +147,7 @@
                                     <div class="card">
                                         <div class="card-block">
                                             <div class="breadcrumb-header">
-                                                <h5>CERTIFICATION OF UNAVAILABILITY OF SUBJECTS<a href="./assets/files/COUS.pdf" download>
+                                                <h5>Template: CERTIFICATION OF UNAVAILABILITY OF SUBJECTS<a href="./assets/files/COUS.pdf" download>
                                                         <button>Download PDF</button>
                                                     </a>
                                                 </h5>
@@ -161,10 +159,6 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- Bottom Breadcrumb card end -->
-
-
-                                    <!-- Page-body start -->
                                 </div>
                             </div>
                             <!-- Main-body start -->
