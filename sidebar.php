@@ -96,7 +96,7 @@ if(!isset($_SESSION['us_id'])){
                         
                           <div class="pcoded-navigation-label" data-i18n="nav.category.navigation">Home</div>
                           <ul class="pcoded-item pcoded-left-item">
-                              <li class="active">
+                              <li <?php if (basename($_SERVER['REQUEST_URI']) == "index.php") { ?> class="active" <?php } ?>>
                                   <a href="index.php" class="waves-effect waves-dark">
                                       <span class="pcoded-micon"><i class="fas fa-tachometer-alt"></i><b>D</b></span>
                                       <span class="pcoded-mtext" data-i18n="nav.dash.main">Dashboard</span>
@@ -110,7 +110,7 @@ if(!isset($_SESSION['us_id'])){
                           <div class="pcoded-navigation-label" data-i18n="nav.category.forms">Files And Information</div>
                           <ul class="pcoded-item pcoded-left-item">
                           <?php if($_SESSION['us_type']=="admin"){ ?>
-                          <li>
+                          <li <?php if (basename($_SERVER['REQUEST_URI']) == "students.php") { ?> class="active" <?php } ?>>
                                   <a href="students.php" class="waves-effect waves-dark">
                                       <span class="pcoded-micon"><i class="fas fa-user"></i><b>FC</b></span>
                                       <span class="pcoded-mtext" data-i18n="nav.form-components.main">Student List</span>
@@ -118,7 +118,7 @@ if(!isset($_SESSION['us_id'])){
                                   </a>
                               </li>
         
-                              <li>
+                              <li <?php if (basename($_SERVER['REQUEST_URI']) == "admins.php") { ?> class="active" <?php } ?>>
                                   <a href="admins.php" class="waves-effect waves-dark">
                                       <span class="pcoded-micon"><i class="fas fa-user-shield"></i><b>FC</b></span>
                                       <span class="pcoded-mtext" data-i18n="nav.form-components.main">Admin List</span>
@@ -127,7 +127,7 @@ if(!isset($_SESSION['us_id'])){
                               </li>
                              
 
-                              <li>
+                              <li <?php if (basename($_SERVER['REQUEST_URI']) == "files.php") { ?> class="active" <?php } ?>>
                                   <a href="files.php" class="waves-effect waves-dark">
                                       <span class="pcoded-micon"><i class="fas fa-file"></i><b>FC</b></span>
                                       <span class="pcoded-mtext" data-i18n="nav.form-components.main">Download Files</span>
@@ -136,7 +136,7 @@ if(!isset($_SESSION['us_id'])){
                               </li>
                               <?php } else{ ?>
                            
-                                <li>
+                                <li <?php if (basename($_SERVER['REQUEST_URI']) == "sfiles.php") { ?> class="active" <?php } ?>>
                                   <a href="sfiles.php" class="waves-effect waves-dark">
                                       <span class="pcoded-micon"><i class="fas fa-file"></i><b>FC</b></span>
                                       <span class="pcoded-mtext" data-i18n="nav.form-components.main">Download Files</span>
