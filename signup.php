@@ -172,6 +172,7 @@ $mother = $_POST['mother'];
 $stmt->bind_param("sssssssissssss", $username, $password, $full_name, $email, $birthdate, $gender, $religion, $age, $strand_and_section, $lrn, $school_year, $address, $father, $mother);
 
 $stmt->execute();
+echo"<script>alert('Stuent Register Successful')</script>";
 }
 
 

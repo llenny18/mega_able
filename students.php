@@ -131,6 +131,7 @@
                                                                 <th>Address</th>
                                                                 <th>Father</th>
                                                                 <th>Mother</th>
+                                                                <th>Action</th>
                                                             </tr>
                                                         </thead>
                                                         <tbody>
@@ -171,6 +172,7 @@
                                                                     echo "<td>" . $row['address'] . "</td>";
                                                                     echo "<td>" . $row['father'] . "</td>";
                                                                     echo "<td>" . $row['mother'] . "</td>";
+                                                                    echo "<td><a href='editstud.php?sid=" . $row['student_id'] . "'>Add Form 137</a></td>";
                                                                     echo "</tr>";
                                                                 }
                                                             } else {

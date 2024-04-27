@@ -95,7 +95,7 @@
                                         <!-- Basic table card start -->
                                         <div class="card">
                                             <div class="card-header">
-                                                <h5>Students Table</h5>
+                                                <h5>Administrators Table <a href="addadmin.php">Register Admin</a></h5>
                                                 <div class="card-header-right">
                                                     <ul class="list-unstyled card-option">
                                                         <li><i class="fa fa fa-wrench open-card-option"></i></li>
