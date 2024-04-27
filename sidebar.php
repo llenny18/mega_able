@@ -19,6 +19,7 @@ if ($conn->connect_error) {
 }
 ?>
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
 <nav class="pcoded-navbar">
                       <div class="sidebar_toggle"><a href="#"><i class="icon-close icons"></i></a></div>
@@ -82,134 +83,50 @@ if ($conn->connect_error) {
                                   <ul>
                                       <li class="more-details">
                                           <a href="user-profile.php"><i class="ti-user"></i>View Profile</a>
-                                          <a href="#!"><i class="ti-settings"></i>Settings</a>
                                           <a href="auth-normal-sign-in.php"><i class="ti-layout-sidebar-left"></i>Logout</a>
                                       </li>
                                   </ul>
                               </div>
                           </div>
                          
-                          <div class="pcoded-navigation-label" data-i18n="nav.category.navigation">Layout</div>
+                          <div class="pcoded-navigation-label" data-i18n="nav.category.navigation">Home</div>
                           <ul class="pcoded-item pcoded-left-item">
                               <li class="active">
                                   <a href="index.php" class="waves-effect waves-dark">
-                                      <span class="pcoded-micon"><i class="ti-home"></i><b>D</b></span>
+                                      <span class="pcoded-micon"><i class="fas fa-tachometer-alt"></i><b>D</b></span>
                                       <span class="pcoded-mtext" data-i18n="nav.dash.main">Dashboard</span>
                                       <span class="pcoded-mcaret"></span>
                                   </a>
                               </li>
                             
                           </ul>
-                          <div class="pcoded-navigation-label" data-i18n="nav.category.forms">Forms &amp; Tables</div>
+                          <div class="pcoded-navigation-label" data-i18n="nav.category.forms">Files And Information</div>
                           <ul class="pcoded-item pcoded-left-item">
-                              <li>
-                                  <a href="form-elements-component.php" class="waves-effect waves-dark">
-                                      <span class="pcoded-micon"><i class="ti-layers"></i><b>FC</b></span>
-                                      <span class="pcoded-mtext" data-i18n="nav.form-components.main">Form Components</span>
-                                      <span class="pcoded-mcaret"></span>
-                                  </a>
-                              </li>
-                              <li>
-                                  <a href="bs-basic-table.php" class="waves-effect waves-dark">
-                                      <span class="pcoded-micon"><i class="ti-layers"></i><b>FC</b></span>
-                                      <span class="pcoded-mtext" data-i18n="nav.form-components.main">Basic Table</span>
+                             
+                          <li>
+                                  <a href="students.php" class="waves-effect waves-dark">
+                                      <span class="pcoded-micon"><i class="fas fa-user"></i><b>FC</b></span>
+                                      <span class="pcoded-mtext" data-i18n="nav.form-components.main">Student List</span>
                                       <span class="pcoded-mcaret"></span>
                                   </a>
                               </li>
         
+                              <li>
+                                  <a href="admins.php" class="waves-effect waves-dark">
+                                      <span class="pcoded-micon"><i class="fas fa-user-shield"></i><b>FC</b></span>
+                                      <span class="pcoded-mtext" data-i18n="nav.form-components.main">Admin List</span>
+                                      <span class="pcoded-mcaret"></span>
+                                  </a>
+                              </li>
+        
+                              <li>
+                                  <a href="files.php" class="waves-effect waves-dark">
+                                      <span class="pcoded-micon"><i class="fas fa-file"></i><b>FC</b></span>
+                                      <span class="pcoded-mtext" data-i18n="nav.form-components.main">Download Files</span>
+                                      <span class="pcoded-mcaret"></span>
+                                  </a>
+                              </li>
                           </ul>
         
-                          <div class="pcoded-navigation-label" data-i18n="nav.category.forms">Chart &amp; Maps</div>
-                          <ul class="pcoded-item pcoded-left-item">
-                              <li>
-                                  <a href="chart.php" class="waves-effect waves-dark">
-                                      <span class="pcoded-micon"><i class="ti-layers"></i><b>FC</b></span>
-                                      <span class="pcoded-mtext" data-i18n="nav.form-components.main">Chart</span>
-                                      <span class="pcoded-mcaret"></span>
-                                  </a>
-                              </li>
-                              <li>
-                                  <a href="map-google.php" class="waves-effect waves-dark">
-                                      <span class="pcoded-micon"><i class="ti-layers"></i><b>FC</b></span>
-                                      <span class="pcoded-mtext" data-i18n="nav.form-components.main">Maps</span>
-                                      <span class="pcoded-mcaret"></span>
-                                  </a>
-                              </li>
-                              <li class="pcoded-hasmenu">
-                                  <a href="javascript:void(0)" class="waves-effect waves-dark">
-                                      <span class="pcoded-micon"><i class="ti-layout-grid2-alt"></i></span>
-                                      <span class="pcoded-mtext"  data-i18n="nav.basic-components.main">Pages</span>
-                                      <span class="pcoded-mcaret"></span>
-                                  </a>
-                                  <ul class="pcoded-submenu">
-                                      <li class=" ">
-                                          <a href="auth-normal-sign-in.php" class="waves-effect waves-dark">
-                                              <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
-                                              <span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Login</span>
-                                              <span class="pcoded-mcaret"></span>
-                                          </a>
-                                      </li>
-                                      <li class=" ">
-                                          <a href="auth-sign-up.php" class="waves-effect waves-dark">
-                                              <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
-                                              <span class="pcoded-mtext" data-i18n="nav.basic-components.breadcrumbs">Register</span>
-                                              <span class="pcoded-mcaret"></span>
-                                          </a>
-                                      </li>
-                                      <li class=" ">
-                                          <a href="sample-page.php" class="waves-effect waves-dark">
-                                              <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
-                                              <span class="pcoded-mtext" data-i18n="nav.basic-components.breadcrumbs">Sample Page</span>
-                                              <span class="pcoded-mcaret"></span>
-                                          </a>
-                                      </li>
-                                  </ul>
-                              </li>
-        
-                          </ul>
-        
-                          <div class="pcoded-navigation-label" data-i18n="nav.category.other">Other</div>
-                          <ul class="pcoded-item pcoded-left-item">
-                              <li class="pcoded-hasmenu ">
-                                  <a href="javascript:void(0)" class="waves-effect waves-dark">
-                                      <span class="pcoded-micon"><i class="ti-direction-alt"></i><b>M</b></span>
-                                      <span class="pcoded-mtext" data-i18n="nav.menu-levels.main">Menu Levels</span>
-                                      <span class="pcoded-mcaret"></span>
-                                  </a>
-                                  <ul class="pcoded-submenu">
-                                      <li class="">
-                                          <a href="javascript:void(0)" class="waves-effect waves-dark">
-                                              <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
-                                              <span class="pcoded-mtext" data-i18n="nav.menu-levels.menu-level-21">Menu Level 2.1</span>
-                                              <span class="pcoded-mcaret"></span>
-                                          </a>
-                                      </li>
-                                      <li class="pcoded-hasmenu ">
-                                          <a href="javascript:void(0)" class="waves-effect waves-dark">
-                                              <span class="pcoded-micon"><i class="ti-direction-alt"></i></span>
-                                              <span class="pcoded-mtext" data-i18n="nav.menu-levels.menu-level-22.main">Menu Level 2.2</span>
-                                              <span class="pcoded-mcaret"></span>
-                                          </a>
-                                          <ul class="pcoded-submenu">
-                                              <li class="">
-                                                  <a href="javascript:void(0)" class="waves-effect waves-dark">
-                                                      <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
-                                                      <span class="pcoded-mtext" data-i18n="nav.menu-levels.menu-level-22.menu-level-31">Menu Level 3.1</span>
-                                                      <span class="pcoded-mcaret"></span>
-                                                  </a>
-                                              </li>
-                                          </ul>
-                                      </li>
-                                      <li class="">
-                                          <a href="javascript:void(0)" class="waves-effect waves-dark">
-                                              <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
-                                              <span class="pcoded-mtext" data-i18n="nav.menu-levels.menu-level-23">Menu Level 2.3</span>
-                                              <span class="pcoded-mcaret"></span>
-                                          </a>
-                                      </li>
-                
-                                  </ul>
-                              </li>
-                          </ul>
                       </div>
                   </nav>
