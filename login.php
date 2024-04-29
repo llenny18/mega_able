@@ -25,11 +25,14 @@
     <link rel="stylesheet" type="text/css" href="assets/icon/font-awesome/css/font-awesome.min.css">
     <!-- Style.css -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <style>
+       
+    </style>
 </head>
 
 <body themebg-pattern="theme1">
     <!-- Pre-loader start -->
-    <div class="theme-loader">
+    <div class="theme-loader" id="id1">
         <div class="loader-track">
             <div class="preloader-wrapper">
                 <div class="spinner-layer spinner-blue">
@@ -150,6 +153,7 @@
             $admin_row = $admin_result->fetch_assoc();
             $_SESSION['us_id'] = $admin_row['admin_id'];
                 $_SESSION['us_type'] = "admin";
+                echo "<script>alert('Login Success')</script>";
                 redirectToPage("index.php"); // Redirect to admin dashboard
         } else {
             // Check if the user is a student

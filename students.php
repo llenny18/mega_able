@@ -29,15 +29,15 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/jquery.mCustomScrollbar.css">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<!-- jQuery -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
     <!-- DataTables CSS -->
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
 
     <!-- DataTables JS -->
     <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
-    
+
 </head>
 
 <body>
@@ -100,13 +100,7 @@
                                             </div>
                                             <div class="card-block table-border-style">
                                                 <div class="table-responsive">
-                                                    <table id="dynamic-table-1" class="table"
-       data-id-field="code"
-       data-sort-name="value1"
-       data-sort-order="desc"
-       data-show-chart="false"
-       data-pagination="false"
-       data-show-pagination-switch="false">
+                                                    <table id="dynamic-table-1" class="table" data-id-field="code" data-sort-name="value1" data-sort-order="desc" data-show-chart="false" data-pagination="false" data-show-pagination-switch="false">
                                                         <thead>
                                                             <tr>
                                                                 <th>#</th>
@@ -151,7 +145,14 @@
                                                                 while ($row = $result->fetch_assoc()) {
                                                                     echo "<tr>";
                                                                     echo "<td>" . $row['student_id'] . "</td>";
-                                                                    echo "<td>"; if(is_null($row['form137'])){ echo "None"; } else{ echo"Uploaded"; } echo "</td>";
+                                                                    echo "<td>";
+                                                                    if (is_null($row['form137'])) {
+                                                                        echo "None";
+                                                                    } else {
+                                                                        echo "Uploaded";
+                                                                    }
+                                                                    
+                                                                    echo "</td>";
                                                                     echo "<td>" . $row['username'] . "</td>";
                                                                     echo "<td>" . $row['full_name'] . "</td>";
                                                                     echo "<td>" . $row['birthdate'] . "</td>";

@@ -159,7 +159,7 @@
 
 
     <style>
-        /* Define styles for different shapes */
+       
         .square-shape {
             width: 100px;
             height: 100px;
@@ -181,7 +181,7 @@
             border-right: 80px solid transparent;
             border-bottom: 100px solid white;
             display: inline-block;
-            margin-right: 5px;
+            margin-right: 5px; 
 
         }
     </style>
